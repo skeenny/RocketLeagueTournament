@@ -78,7 +78,7 @@ function generatePlayerHTML(player) {
 
   const linksTitle = document.createElement('span');
   linksTitle.className = 'links-title';
-  linksTitle.textContent = 'Посилання:';
+  linksTitle.textContent = 'Посилання';
 
   const linksListDiv = document.createElement('div');
   linksListDiv.className = 'links-list';

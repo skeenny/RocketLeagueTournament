@@ -323,6 +323,7 @@ a:hover {
   line-height: 13.8px;
   text-align: left;
   color: #ffffff4d;
+  text-align: end;
 }
 .rl-tracker {
   padding: 5px;
