@@ -6,45 +6,45 @@ players.sort((a, b) => b.rank - a.rank);
 document.getElementById('players-count').textContent = players.length;
 function getRankImage(rank) {
   if (rank > 1864) {
-    return '/assets/ranks_logos/ssl.webp';
+    return 'assets/ranks_logos/ssl.webp';
   } else if (rank > 1707) {
-    return '/assets/ranks_logos/gc3.webp';
+    return 'assets/ranks_logos/gc3.webp';
   } else if (rank > 1575) {
-    return '/assets/ranks_logos/gc2.webp';
+    return 'assets/ranks_logos/gc2.webp';
   } else if (rank > 1435) {
-    return '/assets/ranks_logos/gc1.webp';
+    return 'assets/ranks_logos/gc1.webp';
   } else if (rank > 1315) {
-    return '/assets/ranks_logos/c3.webp';
+    return 'assets/ranks_logos/c3.webp';
   } else if (rank > 1195) {
-    return '/assets/ranks_logos/c2.webp';
+    return 'assets/ranks_logos/c2.webp';
   } else if (rank > 1075) {
-    return '/assets/ranks_logos/c1.webp';
+    return 'assets/ranks_logos/c1.webp';
   } else if (rank > 995) {
-    return '/assets/ranks_logos/d3.webp';
+    return 'assets/ranks_logos/d3.webp';
   } else if (rank > 915) {
-    return '/assets/ranks_logos/d2.webp';
+    return 'assets/ranks_logos/d2.webp';
   } else if (rank > 835) {
-    return '/assets/ranks_logos/d1.webp';
+    return 'assets/ranks_logos/d1.webp';
   } else if (rank > 775) {
-    return '/assets/ranks_logos/p3.webp';
+    return 'assets/ranks_logos/p3.webp';
   } else if (rank > 715) {
-    return '/assets/ranks_logos/p2.webp';
+    return 'assets/ranks_logos/p2.webp';
   } else if (rank > 655) {
-    return '/assets/ranks_logos/p1.webp';
+    return 'assets/ranks_logos/p1.webp';
   } else if (rank > 595) {
-    return '/assets/ranks_logos/g3.webp';
+    return 'assets/ranks_logos/g3.webp';
   } else if (rank > 535) {
-    return '/assets/ranks_logos/g2.webp';
+    return 'assets/ranks_logos/g2.webp';
   } else if (rank > 475) {
-    return '/assets/ranks_logos/g1.webp';
+    return 'assets/ranks_logos/g1.webp';
   } else if (rank > 415) {
-    return '/assets/ranks_logos/s3.webp';
+    return 'assets/ranks_logos/s3.webp';
   } else if (rank > 355) {
-    return '/assets/ranks_logos/s2.webp';
+    return 'assets/ranks_logos/s2.webp';
   } else if (rank > 286) {
-    return '/assets/ranks_logos/s1.webp';
+    return 'assets/ranks_logos/s1.webp';
   } else if (rank > 233) {
-    return '/assets/ranks_logos/b3.webp';
+    return 'assets/ranks_logos/b3.webp';
   }
 }
 
@@ -88,7 +88,7 @@ function generatePlayerHTML(player) {
     twitchLink.target = '_blank';
     const twitchLogoImg = document.createElement('img');
     twitchLogoImg.className = 'twitch-link';
-    twitchLogoImg.src = '/assets/twitch.svg';
+    twitchLogoImg.src = 'assets/twitch.svg';
     twitchLink.href = player.twitch;
     twitchLink.appendChild(twitchLogoImg);
     linksListDiv.appendChild(twitchLink);
@@ -99,7 +99,7 @@ function generatePlayerHTML(player) {
     profileLink.target = '_blank';
     const rlTrackerLogoImg = document.createElement('img');
     rlTrackerLogoImg.className = 'rl-tracker';
-    rlTrackerLogoImg.src = '/assets/tracker.svg';
+    rlTrackerLogoImg.src = 'assets/tracker.svg';
     profileLink.href = player.link;
     profileLink.appendChild(rlTrackerLogoImg);
     linksListDiv.appendChild(profileLink);
