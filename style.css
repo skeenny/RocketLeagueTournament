@@ -2,6 +2,9 @@ body {
   background: #121212;
   font-family: 'Nunito', sans-serif;
   padding: 5px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER STYLES */
@@ -11,6 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-self: center;
+  width: 100%;
 }
 
 /* HEADER LEFT */
@@ -196,6 +200,13 @@ a:hover {
   gap: 14px;
 }
 
+.content-top-teams {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  justify-content: center;
+}
+
 .main-image {
   max-width: 918px;
   height: auto;
@@ -348,6 +359,7 @@ a:hover {
 footer {
   display: flex;
   align-items: flex-end;
+  margin-top: auto;
 }
 .socials {
   display: flex;
