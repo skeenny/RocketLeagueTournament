@@ -7,41 +7,41 @@ document.getElementById('players-count').textContent = players.length;
 function getRankImage(rank) {
   if (rank > 1864) {
     return 'assets/ranks_logos/ssl.webp';
-  } else if (rank > 1707) {
+  } else if (rank > 1701) {
     return 'assets/ranks_logos/gc3.webp';
-  } else if (rank > 1575) {
+  } else if (rank > 1560) {
     return 'assets/ranks_logos/gc2.webp';
-  } else if (rank > 1435) {
+  } else if (rank > 1421) {
     return 'assets/ranks_logos/gc1.webp';
-  } else if (rank > 1315) {
+  } else if (rank > 1301) {
     return 'assets/ranks_logos/c3.webp';
-  } else if (rank > 1195) {
+  } else if (rank > 1181) {
     return 'assets/ranks_logos/c2.webp';
-  } else if (rank > 1075) {
+  } else if (rank > 1064) {
     return 'assets/ranks_logos/c1.webp';
-  } else if (rank > 995) {
+  } else if (rank > 983) {
     return 'assets/ranks_logos/d3.webp';
-  } else if (rank > 915) {
+  } else if (rank > 901) {
     return 'assets/ranks_logos/d2.webp';
-  } else if (rank > 835) {
+  } else if (rank > 827) {
     return 'assets/ranks_logos/d1.webp';
-  } else if (rank > 775) {
+  } else if (rank > 766) {
     return 'assets/ranks_logos/p3.webp';
-  } else if (rank > 715) {
+  } else if (rank > 706) {
     return 'assets/ranks_logos/p2.webp';
-  } else if (rank > 655) {
+  } else if (rank > 646) {
     return 'assets/ranks_logos/p1.webp';
-  } else if (rank > 595) {
+  } else if (rank > 591) {
     return 'assets/ranks_logos/g3.webp';
-  } else if (rank > 535) {
+  } else if (rank > 532) {
     return 'assets/ranks_logos/g2.webp';
-  } else if (rank > 475) {
+  } else if (rank > 472) {
     return 'assets/ranks_logos/g1.webp';
-  } else if (rank > 415) {
+  } else if (rank > 410) {
     return 'assets/ranks_logos/s3.webp';
-  } else if (rank > 355) {
+  } else if (rank > 353) {
     return 'assets/ranks_logos/s2.webp';
-  } else if (rank > 286) {
+  } else if (rank > 295) {
     return 'assets/ranks_logos/s1.webp';
   } else if (rank > 233) {
     return 'assets/ranks_logos/b3.webp';
