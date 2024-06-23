@@ -8,7 +8,7 @@ function getRankImage(rank) {
   if (rank > 1864) {
     return 'assets/ranks_logos/ssl.webp';
   } else if (rank > 1701) {
-    return 'assets/ranks_logos/gc3.webp';
+    return 'assets/ranks_logos/gc3.png';
   } else if (rank > 1560) {
     return 'assets/ranks_logos/gc2.webp';
   } else if (rank > 1421) {
