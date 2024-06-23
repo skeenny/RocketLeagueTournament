@@ -76,36 +76,37 @@ function generatePlayerHTML(player) {
   const linksDiv = document.createElement('div');
   linksDiv.className = 'links';
 
-  const linksTitle = document.createElement('span');
-  linksTitle.className = 'links-title';
-  linksTitle.textContent = 'Посилання';
-
   const linksListDiv = document.createElement('div');
   linksListDiv.className = 'links-list';
 
   if (player.twitch) {
     const twitchLink = document.createElement('a');
     twitchLink.target = '_blank';
-    const twitchLogoImg = document.createElement('img');
-    twitchLogoImg.className = 'twitch-link';
-    twitchLogoImg.src = 'assets/twitch.svg';
+    const twitchLogoImg = document.createElement('div');
+    twitchLogoImg.className = 'img-twitch';
     twitchLink.href = player.twitch;
     twitchLink.appendChild(twitchLogoImg);
     linksListDiv.appendChild(twitchLink);
   }
 
+  if (player.YT) {
+    const profileLink = document.createElement('a');
+    profileLink.target = '_blank';
+    const YTLogoImg = document.createElement('div');
+    YTLogoImg.className = 'img-YT';
+    profileLink.href = player.YT;
+    profileLink.appendChild(YTLogoImg);
+    linksListDiv.appendChild(profileLink);
+  }
   if (player.link) {
     const profileLink = document.createElement('a');
     profileLink.target = '_blank';
-    const rlTrackerLogoImg = document.createElement('img');
-    rlTrackerLogoImg.className = 'rl-tracker';
-    rlTrackerLogoImg.src = 'assets/tracker.svg';
+    const rlTrackerLogoImg = document.createElement('div');
+    rlTrackerLogoImg.className = 'img-TRN';
     profileLink.href = player.link;
     profileLink.appendChild(rlTrackerLogoImg);
     linksListDiv.appendChild(profileLink);
   }
-
-  linksDiv.appendChild(linksTitle);
   linksDiv.appendChild(linksListDiv);
 
   playerInfoImageBlock.appendChild(rankImageWrapper);

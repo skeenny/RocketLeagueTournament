@@ -111,7 +111,7 @@ a {
   color: #121212;
 }
 
-a:hover {
+.registration:hover {
   opacity: 0.7;
 }
 
@@ -174,6 +174,77 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.img-squares {
+  background-color: #a0fc2b;
+  -webkit-mask: url(assets/squares.svg) no-repeat center;
+  mask: url(assets/squares.svg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-tasks {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/tasks.svg) no-repeat center;
+  mask: url(assets/tasks.svg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-cup {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/cup.svg) no-repeat center;
+  mask: url(assets/cup.svg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-info {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/info.svg) no-repeat center;
+  mask: url(assets/info.svg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-twitch {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/twitch.svg) no-repeat center;
+  mask: url(assets/twitch.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  mask-size: contain;
+}
+
+.img-twitch:hover {
+  background-color: #6441a5;
+}
+
+.img-YT {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/YT.svg) no-repeat center;
+  mask: url(assets/YT.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  mask-size: contain;
+}
+
+.img-YT:hover {
+  background-color: #ff0000;
+}
+
+.img-TRN {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/tracker.svg) no-repeat center;
+  mask: url(assets/tracker.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  mask-size: contain;
+}
+
+.img-TRN:hover {
+  background-color: #e58517;
 }
 
 /* BODY STYLES */
@@ -328,14 +399,6 @@ a:hover {
   gap: 10px;
 }
 
-.links-title {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 13.8px;
-  text-align: left;
-  color: #ffffff4d;
-  text-align: end;
-}
 .rl-tracker {
   padding: 5px;
   border-radius: 2px;
@@ -354,7 +417,10 @@ a:hover {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
+  margin-bottom: 10px;
 }
+
+/* FOOTER STYLES */
 
 footer {
   display: flex;
@@ -391,6 +457,34 @@ footer {
 .mono {
   box-shadow: 0px 7px 29.1px 0px #a0fc2b33;
   color: #a0fc2b;
+}
+
+.authors:hover {
+  opacity: 0.7;
+}
+
+.img-discord {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/discord.svg) no-repeat center;
+  mask: url(assets/discord.svg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-discord:hover {
+  background-color: #5865f2;
+  opacity: 1 !important;
+}
+
+.img-telegram {
+  background-color: #ffffff80;
+  -webkit-mask: url(assets/telegram.svg) no-repeat center;
+  mask: url(assets/telegram.svg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+.img-telegram:hover {
+  background-color: #24a1de;
 }
 
 @media screen and (max-width: 1425px) {
