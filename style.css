@@ -300,7 +300,7 @@ a {
 }
 
 .banka-qr {
-  mask: url(/assets/qr.png) no-repeat center;
+  mask: url(/assets/qr.svg) no-repeat center;
   width: 100px;
   height: 100px;
 }
