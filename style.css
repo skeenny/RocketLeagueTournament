@@ -121,19 +121,6 @@ a {
   align-items: center;
 }
 
-.registration {
-  background: #ffffff80;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  padding: 14px 24px;
-  text-align: center;
-}
-
 /* LEFT MENU STYLES */
 
 .left-menu {
@@ -296,12 +283,13 @@ a {
 
 .ic-info-block {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 
 .banka-qr {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .ic-info {
