@@ -336,6 +336,7 @@ a {
   justify-content: center;
 }
 .player {
+  flex-grow: 1;
   background: #181818;
   border-radius: 10px;
   padding: 5px;
