@@ -294,6 +294,17 @@ a {
   font-weight: 800;
 }
 
+.ic-info-block {
+  display: flex;
+  gap: 10px;
+}
+
+.banka-qr {
+  mask: url(assets/qr.png) no-repeat center;
+  width: 100px;
+  height: 100px;
+}
+
 .ic-info {
   color: #ffffffc9;
   font-size: 14px;
