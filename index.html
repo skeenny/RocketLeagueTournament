@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <header>
+    <div class="header">
       <div class="header-left">
         <div class="logo">
           <img src="assets/SL.svg" />
@@ -22,25 +22,30 @@
         </div>
         <div class="creator-name">PANAKARMANA</div>
       </div>
-      <div class="header-right">
+      <!-- <div class="header-right">
         <div class="notifications">
-          <!-- <div class="live">
-            <img src="assets/lightning.svg" />
-            <span class="live-text">LIVE</span>
-          </div> -->
+          <div class="live">
+              <img src="assets/lightning.svg" />
+              <span class="live-text">LIVE</span>
+            </div>
           <div class="notification">
             <img src="assets/bell.svg" />
           </div>
         </div>
-      </div>
-    </header>
+      </div> -->
+    </div>
+
     <div class="main-wrapper">
       <div class="left-menu">
         <div class="left-menu_top">
-          <div class="menu-box"><div class="img-squares"></div></div>
-          <div class="menu-box"><div class="img-tasks"></div></div>
-          <div class="menu-box"><div class="img-cup"></div></div>
-          <div class="menu-box"><div class="img-info"></div></div>
+          <a href="index.html"
+            ><div class="menu-box"><div class="img-squares active"></div></div
+          ></a>
+          <a href="teams.html"
+            ><div class="menu-box"><div class="img-teams"></div></div
+          ></a>
+          <div class="menu-box disabled"><div class="img-cup"></div></div>
+          <div class="menu-box disabled"><div class="img-info"></div></div>
         </div>
       </div>
       <div class="main-content">

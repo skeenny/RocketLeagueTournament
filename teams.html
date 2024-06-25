@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <header>
+    <div class="header">
       <div class="header-left">
         <div class="logo">
           <img src="assets/SL.svg" />
@@ -22,34 +22,38 @@
         </div>
         <div class="creator-name">PANAKARMANA</div>
       </div>
-      <div class="header-right">
+      <!-- <div class="header-right">
         <div class="notifications">
-          <!-- <div class="live">
+          <div class="live">
             <img src="assets/lightning.svg" />
             <span class="live-text">LIVE</span>
-          </div> -->
+          </div>
           <div class="notification">
             <img src="assets/bell.svg" />
           </div>
         </div>
-        <!-- <a class="registration" href="https://t.me/SlowLeaguePANAKARMANA/220">РЕЄСТРАЦІЯ</a> -->
-      </div>
-    </header>
+      </div> -->
+    </div>
+
     <div class="main-wrapper">
       <div class="left-menu">
         <div class="left-menu_top">
-          <div class="menu-box"><img src="assets/squares.svg" /></div>
-          <div class="menu-box"><img src="assets/tasks.svg" /></div>
-          <div class="menu-box"><img src="assets/cup.svg" /></div>
-          <div class="menu-box"><img src="assets/info.svg" /></div>
+          <a href="index.html"
+            ><div class="menu-box"><div class="img-squares"></div></div
+          ></a>
+          <a href="teams.html"
+            ><div class="menu-box"><div class="img-teams active"></div></div
+          ></a>
+          <div class="menu-box disabled"><div class="img-cup"></div></div>
+          <div class="menu-box disabled"><div class="img-info"></div></div>
         </div>
       </div>
       <div class="main-content">
-        <div class="content-top-teams">
-          <img class="main-image" src="assets/main_logo.png" />
-        </div>
+        <div class="groups-container" id="groups-container"></div>
         <div class="content-bottom">
-          <span class="players-list-title">Список команд <span id="players-count" class="players-count"></span></span>
+          <!-- <span class="players-list-title"
+            >Список матчів TBD <span id="players-count" class="players-count"></span
+          ></span> -->
           <div id="players-list" class="players-list"></div>
         </div>
       </div>
@@ -74,3 +78,4 @@
     </footer>
   </body>
 </html>
+<script src="teams.js"></script>
