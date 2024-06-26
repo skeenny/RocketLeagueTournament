@@ -182,8 +182,8 @@
           ]
         },
         {
-          "name": "14",
-          "logo": "assets/teams_logos/default_logo.png",
+          "name": "Goose Fiction",
+          "logo": "assets/teams_logos/Goose-Fiction.png",
           "points": 0,
           "matches": "",
           "players": [
@@ -193,6 +193,7 @@
             },
             {
               "name": "KanGer533.",
+              "isCap": true,
               "rank": 910
             }
           ]
