@@ -16,6 +16,10 @@ body {
   align-items: center;
 }
 
+.left-menu_header {
+  display: none;
+}
+
 /* HEADER LEFT */
 
 .header-left {
@@ -711,6 +715,27 @@ footer {
 @media screen and (max-width: 500px) {
   .left-menu {
     display: none;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .creator-name {
+    display: none;
+  }
+
+  .header {
+    padding: 10px 0px;
+  }
+
+  .left-menu-header {
+    display: flex;
+  }
+
+  .left-menu_header {
+    display: flex;
+    gap: 10px;
   }
 }
 
