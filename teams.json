@@ -7,6 +7,7 @@
           "name": "Team 15",
           "logo": "assets/teams_logos/Team15.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -23,6 +24,7 @@
           "name": "En78",
           "logo": "assets/teams_logos/En78.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "Skeenny_",
@@ -39,6 +41,7 @@
           "name": "death express",
           "logo": "assets/teams_logos/death_express.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "TRY O_O HARD",
@@ -55,6 +58,7 @@
           "name": "Avengers",
           "logo": "assets/teams_logos/Avengers.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "Banka c pivom",
@@ -76,6 +80,7 @@
           "name": "Project D",
           "logo": "assets/teams_logos/project_d.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "naazzarko.00oo",
@@ -92,6 +97,7 @@
           "name": "11",
           "logo": "assets/teams_logos/default_logo.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "S0meW3l",
@@ -107,6 +113,7 @@
           "name": "4",
           "logo": "assets/teams_logos/default_logo.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "ORYON",
@@ -122,6 +129,7 @@
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "Gucci_Flop.",
@@ -140,9 +148,10 @@
       "name": "Група В",
       "teams": [
         {
-          "name": "3",
-          "logo": "assets/teams_logos/default_logo.png",
+          "name": "Expinshion",
+          "logo": "assets/teams_logos/expinshion.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "NAGetss_.",
@@ -150,6 +159,7 @@
             },
             {
               "name": "Lan1gwh",
+              "isCap": true,
               "rank": 629
             }
           ]
@@ -158,6 +168,7 @@
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "h5d.",
@@ -174,6 +185,7 @@
           "name": "14",
           "logo": "assets/teams_logos/default_logo.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "KBM Sovereign",
@@ -186,12 +198,14 @@
           ]
         },
         {
-          "name": "16",
-          "logo": "assets/teams_logos/default_logo.png",
+          "name": "Pivozavriki",
+          "logo": "assets/teams_logos/Pivozavriki.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "StormDimu4",
+              "isCap": true,
               "rank": 959
             },
             {
@@ -209,6 +223,7 @@
           "name": "Shaleny Gusy",
           "logo": "assets/teams_logos/Shaleny_Gusy.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "Mencher_",
@@ -225,6 +240,7 @@
           "name": "2",
           "logo": "assets/teams_logos/default_logo.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "Deicidiikami",
@@ -240,6 +256,7 @@
           "name": "Bimba",
           "logo": "assets/teams_logos/Bimba.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "K0bzar_",
@@ -256,6 +273,7 @@
           "name": "Secret Esports",
           "logo": "assets/teams_logos/Secret_Esports.png",
           "points": 0,
+          "matches": "",
           "players": [
             {
               "name": "Dxnku",

@@ -628,7 +628,33 @@ footer {
 
 .team-right {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wr-string {
+  display: flex;
   gap: 5px;
+  align-items: center;
+}
+.result {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13.8px;
+  text-align: left;
+}
+.result_W {
+  color: #a0fc2b;
+}
+
+.result_L {
+  color: red;
+}
+
+.team-right-top {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
 }
 
 .team-points {

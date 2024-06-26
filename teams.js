@@ -3,6 +3,18 @@ groupsRequest.open('GET', 'teams.json', false);
 groupsRequest.send(null);
 let groups = JSON.parse(groupsRequest.responseText).groups;
 
+function getTeams(groups) {
+  const teams = [];
+  groups.forEach((group) => {
+    group.teams.forEach((team) => {
+      teams.push({ name: team.name, logo: team.logo });
+    });
+  });
+  return teams;
+}
+
+const teamsArray = getTeams(groups);
+
 function getRankImage(rank) {
   const rankImages = [
     { threshold: 1864, image: 'assets/ranks_logos/ssl.webp' },
@@ -125,8 +137,7 @@ function renderGroupsList(groups) {
       teamLeft.appendChild(teamInfo);
 
       const teamRight = document.createElement('div');
-      teamRight.className = 'team-right';
-
+      teamRight.className = 'team-right-top';
       const teamPoints = document.createElement('div');
       teamPoints.className = 'team-points';
       teamPoints.textContent = team.points;
@@ -140,9 +151,25 @@ function renderGroupsList(groups) {
       if (isTop2) {
         teamRight.appendChild(teamIconCup);
       }
+      const teamRightContainer = document.createElement('div');
+      teamRightContainer.className = 'team-right';
+      const wrString = document.createElement('div');
+      wrString.className = 'wr-string';
+      const matches = team.matches.split(' ');
+
+      matches.forEach((match) => {
+        const el = document.createElement('span');
+        el.innerText = match;
+        el.className = `result result_${match}`;
+        wrString.appendChild(el);
+      });
+
+      teamRightContainer.appendChild(teamRight);
+      teamRightContainer.appendChild(wrString);
+
       teamRight.appendChild(teamPoints);
       teamDiv.appendChild(teamLeft);
-      teamDiv.appendChild(teamRight);
+      teamDiv.appendChild(teamRightContainer);
 
       teamsList.appendChild(teamDiv);
     });
