@@ -1,7 +1,7 @@
 let groupsRequest = new XMLHttpRequest();
 groupsRequest.open('GET', 'teams.json', false);
 groupsRequest.send(null);
-let groups = JSON.parse(groupsRequest.responseText).teams;
+let groups = JSON.parse(groupsRequest.responseText).groups;
 
 function getRankImage(rank) {
   const rankImages = [
