@@ -101,6 +101,7 @@
           "players": [
             {
               "name": "S0meW3l",
+              "isCap": true,
               "rank": 1018
             },
             {
