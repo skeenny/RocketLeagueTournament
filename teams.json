@@ -111,8 +111,8 @@
           ]
         },
         {
-          "name": "4",
-          "logo": "assets/teams_logos/default_logo.png",
+          "name": "Sky Strikers",
+          "logo": "assets/teams_logos/Sky_Strikers.png",
           "points": 0,
           "matches": "",
           "players": [
@@ -122,6 +122,7 @@
             },
             {
               "name": "Field_Man",
+              "isCap": true,
               "rank": 762
             }
           ]
