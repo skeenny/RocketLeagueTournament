@@ -246,6 +246,7 @@
           "players": [
             {
               "name": "Deicidiikami",
+              "isCap": true,
               "rank": 1460
             },
             {
