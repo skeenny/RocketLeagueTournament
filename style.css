@@ -213,6 +213,14 @@ a {
   height: 100%;
 }
 
+.img-info:not(.disabled):hover {
+  background-color: #a0fc2b;
+}
+
+.img-info.active {
+  background-color: #a0fc2b;
+}
+
 .img-twitch {
   background-color: #ffffff80;
   -webkit-mask: url(assets/twitch.svg) no-repeat center;
@@ -683,6 +691,56 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* INFO PAGE STYLES */
+
+.main-info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.info-header {
+  color: #a0fc2b;
+  font-size: 36px;
+  font-weight: 700;
+  align-self: center;
+  text-align: center;
+}
+
+.i-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.i-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #181818;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.i-group-name {
+  color: #a0fc2b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18.4px;
+  align-self: center;
+  text-wrap: wrap;
+}
+
+.i-group-info {
+  color: #ffffff80;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.4px;
+  text-wrap: wrap;
+}
+
 /* RESPONSIVE SETTINGS */
 
 @media screen and (max-width: 1425px) {
@@ -704,6 +762,10 @@ footer {
   }
   .players-list-title {
     align-self: center;
+  }
+
+  .info-header {
+    font-size: 24px;
   }
 }
 
@@ -740,6 +802,9 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+  .main-wrapper {
+    margin-bottom: 20px;
+  }
   .t-name {
     font-size: 12px;
   }
@@ -748,5 +813,27 @@ footer {
   }
   .creator-name {
     font-size: 14px;
+  }
+
+  footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+
+  .copyright {
+    margin: 0;
   }
 }
