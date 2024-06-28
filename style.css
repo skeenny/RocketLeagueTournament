@@ -539,7 +539,7 @@ footer {
   border-radius: 10px;
   min-width: 300px;
   height: fit-content;
-  flex-grow: 1;
+  flex: 1 1 0px;
 }
 
 .group-header-content {
@@ -739,6 +739,135 @@ footer {
   font-weight: 700;
   line-height: 18.4px;
   text-wrap: wrap;
+}
+
+/* MATCHES STYLES */
+
+.marches-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.match-info {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 49%;
+  align-items: center;
+  position: relative;
+  background: #181818;
+  border-radius: 10px;
+}
+
+.team_match {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 60px 5px 10px;
+  width: 50%;
+}
+
+.team_match_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px 5px 60px;
+  width: 50%;
+  flex-direction: row-reverse;
+}
+
+.team_info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.team_info_right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.team_name {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+}
+
+.match_score {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 18.4px;
+}
+
+.vs_block {
+  height: 54px;
+  width: 54px;
+  background-color: #a0fc2b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.vs_block {
+  background-color: #a0fc2b;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  left: calc(50% - 27px);
+}
+
+.vs {
+  color: #121212;
+  font-size: 22px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.vs_group {
+  position: absolute;
+  font-size: 12px;
+  color: #00000080;
+  top: 2px;
+  left: 5px;
+}
+
+.vs_match_link {
+  position: absolute;
+  font-size: 12px;
+  color: #00000080;
+  bottom: 2px;
+  left: 11px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.wl {
+  background: linear-gradient(90deg, rgba(160, 252, 43, 0) 15%, rgba(160, 252, 43, 0.4) 100%);
+}
+
+.wr {
+  background: linear-gradient(-90deg, rgba(160, 252, 43, 0) 15%, rgba(160, 252, 43, 0.4) 100%);
+}
+
+.ll {
+  background: linear-gradient(90deg, rgba(252, 43, 43, 0) 15%, rgba(252, 43, 43, 0.4) 100%);
+}
+
+.lr {
+  background: linear-gradient(-90deg, rgba(252, 43, 43, 0) 15%, rgba(252, 43, 43, 0.4) 100%);
 }
 
 /* RESPONSIVE SETTINGS */

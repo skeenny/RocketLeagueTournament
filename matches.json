@@ -1,28 +1,3 @@
 {
-  "matches": [
-    {
-      "team1": {
-        "name": "Team 15",
-        "isWinner": false,
-        "score": 3
-      },
-      "team2": {
-        "name": "En78",
-        "isWinner": true,
-        "score": 5
-      }
-    },
-    {
-      "team1": {
-        "name": "Team 15",
-        "isWinner": false,
-        "score": 3
-      },
-      "team2": {
-        "name": "En78",
-        "isWinner": true,
-        "score": 5
-      }
-    }
-  ]
+  "matches": []
 }

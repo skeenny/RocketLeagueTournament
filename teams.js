@@ -13,7 +13,26 @@ function getTeams(groups) {
   return teams;
 }
 
+let matchesRequest = new XMLHttpRequest();
+matchesRequest.open('GET', 'matches.json', false);
+matchesRequest.send(null);
+let matches = JSON.parse(matchesRequest.responseText).matches;
 const teamsArray = getTeams(groups);
+
+matches.forEach((match) => {
+  const team1Name = match.team1.name;
+  const team2Name = match.team2.name;
+  teamsArray.forEach((team) => {
+    if (team.name === team1Name) {
+      match.team1.logo = team.logo;
+    } else if (team.name === team2Name) {
+      match.team2.logo = team.logo;
+    }
+  });
+});
+
+const mc = document.getElementById('matches-count');
+mc.innerText = matches.length;
 
 function getRankImage(rank) {
   const rankImages = [
@@ -179,6 +198,99 @@ function renderGroupsList(groups) {
   });
 }
 
+function generateMatchHTML(match) {
+  const container = document.getElementById('matches-list');
+  const matchInfo = document.createElement('div');
+  matchInfo.className = 'match-info';
+
+  // Team 1
+  const teamMatchLeft = document.createElement('div');
+  teamMatchLeft.className = `team_match ${match.team1.isWinner ? 'wl' : 'll'}`;
+
+  const teamInfoLeft = document.createElement('div');
+  teamInfoLeft.className = 'team_info';
+
+  const teamLogoLeft = document.createElement('div');
+  teamLogoLeft.className = 'team-logo';
+  const teamLogoImgLeft = document.createElement('img');
+  teamLogoImgLeft.src = match.team1.logo;
+  teamLogoImgLeft.width = 68;
+  teamLogoImgLeft.height = 68;
+  teamLogoLeft.appendChild(teamLogoImgLeft);
+
+  const teamNameLeft = document.createElement('span');
+  teamNameLeft.className = 'team_name';
+  teamNameLeft.textContent = match.team1.name;
+
+  teamInfoLeft.appendChild(teamLogoLeft);
+  teamInfoLeft.appendChild(teamNameLeft);
+  teamMatchLeft.appendChild(teamInfoLeft);
+
+  const matchScoreLeft = document.createElement('span');
+  matchScoreLeft.className = 'match_score';
+  matchScoreLeft.textContent = match.team1.score;
+  teamMatchLeft.appendChild(matchScoreLeft);
+
+  // VS Block
+  const vsBlock = document.createElement('div');
+  vsBlock.className = 'vs_block';
+
+  const vsGroup = document.createElement('span');
+  vsGroup.className = 'vs_group';
+  vsGroup.textContent = match.groupName;
+
+  const vsText = document.createElement('div');
+  vsText.className = 'vs';
+  vsText.textContent = 'VS';
+
+  const vsLink = document.createElement('a');
+  vsLink.href = match.demo;
+  vsLink.className = 'vs_match_link';
+  vsLink.textContent = 'Demo';
+
+  vsBlock.appendChild(vsGroup);
+  vsBlock.appendChild(vsText);
+  vsBlock.appendChild(vsLink);
+
+  // Team 2
+  const teamMatchRight = document.createElement('div');
+  teamMatchRight.className = `team_match_right ${match.team2.isWinner ? 'wr' : 'lr'}`;
+
+  const teamInfoRight = document.createElement('div');
+  teamInfoRight.className = 'team_info_right';
+
+  const teamLogoRight = document.createElement('div');
+  teamLogoRight.className = 'team-logo';
+  const teamLogoImgRight = document.createElement('img');
+  teamLogoImgRight.src = match.team2.logo;
+  teamLogoImgRight.width = 68;
+  teamLogoImgRight.height = 68;
+  teamLogoRight.appendChild(teamLogoImgRight);
+
+  const teamNameRight = document.createElement('span');
+  teamNameRight.className = 'team_name';
+  teamNameRight.textContent = match.team2.name;
+
+  teamInfoRight.appendChild(teamLogoRight);
+  teamInfoRight.appendChild(teamNameRight);
+  teamMatchRight.appendChild(teamInfoRight);
+
+  const matchScoreRight = document.createElement('span');
+  matchScoreRight.className = 'match_score';
+  matchScoreRight.textContent = match.team2.score;
+  teamMatchRight.appendChild(matchScoreRight);
+
+  // Assemble match info
+  matchInfo.appendChild(teamMatchLeft);
+  matchInfo.appendChild(vsBlock);
+  matchInfo.appendChild(teamMatchRight);
+  container.appendChild(matchInfo);
+  return matchInfo;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderGroupsList(groups);
+  matches.forEach((match) => {
+    generateMatchHTML(match);
+  });
 });
