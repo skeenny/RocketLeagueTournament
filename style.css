@@ -535,6 +535,7 @@ footer {
   gap: 20px;
 }
 .group {
+  flex: 0 0 21%;
   background-color: #181818;
   border-radius: 10px;
   min-width: 300px;
@@ -806,6 +807,11 @@ footer {
   line-height: 18.4px;
 }
 
+.match-team-logo {
+  height: 68px;
+  width: 68px;
+}
+
 .vs_block {
   border-radius: 10px;
   background-color: #a0fc2b;
@@ -890,11 +896,24 @@ footer {
   .info-header {
     font-size: 24px;
   }
+
+  .match-info {
+    width: 100%;
+    flex: unset;
+  }
 }
 
 @media screen and (max-width: 680px) {
   .header-right {
     display: none;
+  }
+
+  .team_name {
+    font-size: 14px;
+  }
+
+  .match_score {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -921,6 +940,33 @@ footer {
   .left-menu_header {
     display: flex;
     gap: 10px;
+  }
+
+  .vs_block {
+    width: 64px;
+    height: 64px;
+    left: calc(50% - 32px);
+  }
+
+  .match-team-logo {
+    height: 42px;
+    width: 42px;
+  }
+
+  .vs_group {
+    font-size: 12px;
+    left: 10px;
+  }
+
+  .vs_match_link {
+    font-size: 12px;
+    left: 16px;
+  }
+  .team_match_right {
+    padding: 5px 10px 5px 40px;
+  }
+  .team_match {
+    padding: 5px 40px 5px 10px;
   }
 }
 

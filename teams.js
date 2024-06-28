@@ -212,9 +212,8 @@ function generateMatchHTML(match) {
   const teamLogoLeft = document.createElement('div');
   teamLogoLeft.className = 'team-logo';
   const teamLogoImgLeft = document.createElement('img');
+  teamLogoImgLeft.className = 'match-team-logo';
   teamLogoImgLeft.src = match.team1.logo;
-  teamLogoImgLeft.width = 68;
-  teamLogoImgLeft.height = 68;
   teamLogoLeft.appendChild(teamLogoImgLeft);
 
   const teamNameLeft = document.createElement('span');
@@ -263,9 +262,8 @@ function generateMatchHTML(match) {
   const teamLogoRight = document.createElement('div');
   teamLogoRight.className = 'team-logo';
   const teamLogoImgRight = document.createElement('img');
+  teamLogoImgRight.className = 'match-team-logo';
   teamLogoImgRight.src = match.team2.logo;
-  teamLogoImgRight.width = 68;
-  teamLogoImgRight.height = 68;
   teamLogoRight.appendChild(teamLogoImgRight);
 
   const teamNameRight = document.createElement('span');
