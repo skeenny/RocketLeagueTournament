@@ -807,26 +807,15 @@ footer {
 }
 
 .vs_block {
-  height: 54px;
-  width: 54px;
-  background-color: #a0fc2b;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  gap: 10px;
-  flex-direction: column;
-}
-
-.vs_block {
   background-color: #a0fc2b;
-  width: 54px;
-  height: 54px;
+  width: 92px;
+  height: 92px;
   display: flex;
   justify-content: center;
-  align-self: center;
+  flex-direction: column;
   position: absolute;
-  left: calc(50% - 27px);
+  left: calc(50% - 46px);
 }
 
 .vs {
@@ -836,24 +825,29 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: bold;
 }
 .vs_group {
   position: absolute;
-  font-size: 12px;
+  font-size: 16px;
   color: #00000080;
   top: 2px;
-  left: 5px;
+  left: 17px;
 }
 
 .vs_match_link {
   position: absolute;
-  font-size: 12px;
+  font-size: 14px;
   color: #00000080;
-  bottom: 2px;
-  left: 11px;
+  bottom: 6px;
+  left: 27.5px;
   cursor: pointer;
   text-decoration: none;
 }
+.vs_match_link:hover {
+  color: red;
+}
+
 .wl {
   background: linear-gradient(90deg, rgba(160, 252, 43, 0) 15%, rgba(160, 252, 43, 0.4) 100%);
 }

@@ -203,7 +203,6 @@ function generateMatchHTML(match) {
   const matchInfo = document.createElement('div');
   matchInfo.className = 'match-info';
 
-  // Team 1
   const teamMatchLeft = document.createElement('div');
   teamMatchLeft.className = `team_match ${match.team1.isWinner ? 'wl' : 'll'}`;
 
@@ -250,7 +249,9 @@ function generateMatchHTML(match) {
 
   vsBlock.appendChild(vsGroup);
   vsBlock.appendChild(vsText);
-  vsBlock.appendChild(vsLink);
+  if (match.demo) {
+    vsBlock.appendChild(vsLink);
+  }
 
   // Team 2
   const teamMatchRight = document.createElement('div');
