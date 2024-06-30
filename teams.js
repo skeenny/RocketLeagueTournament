@@ -243,7 +243,7 @@ function generateMatchHTML(match) {
 
   const vsLink = document.createElement('a');
   vsLink.href = match.demo;
-  twitchLink.target = '_blank';
+  vsLink.target = '_blank';
   vsLink.className = 'vs_match_link';
   vsLink.textContent = 'Demo';
 
