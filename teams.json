@@ -24,7 +24,7 @@
           "name": "En78",
           "logo": "assets/teams_logos/En78.png",
           "points": 0,
-          "matches": "",
+          "matches": "L",
           "players": [
             {
               "name": "Skeenny_",
@@ -40,8 +40,8 @@
         {
           "name": "Death Express",
           "logo": "assets/teams_logos/death_express.png",
-          "points": 0,
-          "matches": "",
+          "points": 3,
+          "matches": "W",
           "players": [
             {
               "name": "TRY O_O HARD",
