@@ -7,7 +7,7 @@
           "name": "Team 15",
           "logo": "assets/teams_logos/Team15.png",
           "points": 3,
-          "matches": "",
+          "matches": "W",
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -58,7 +58,7 @@
           "name": "Avengers",
           "logo": "assets/teams_logos/Avengers.png",
           "points": 0,
-          "matches": "",
+          "matches": "L",
           "players": [
             {
               "name": "Banka c pivom",
