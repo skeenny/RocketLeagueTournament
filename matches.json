@@ -1,3 +1,18 @@
 {
-  "matches": []
+  "matches": [
+    {
+      "groupName": "Група А",
+      "demo": "https://www.youtube.com/live/A7u3NmjfoJ4?si=gQkEEC9F5bV8TR_M&t=210",
+      "team1": {
+        "name": "Team 15",
+        "isWinner": true,
+        "score": 4
+      },
+      "team2": {
+        "name": "Avengers",
+        "isWinner": false,
+        "score": 3
+      }
+    }
+  ]
 }
