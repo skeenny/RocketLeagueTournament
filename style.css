@@ -643,6 +643,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 80px;
 }
 
 .wr-string {
@@ -844,14 +845,18 @@ footer {
 .vs_match_link {
   position: absolute;
   font-size: 14px;
-  color: #00000080;
   bottom: 6px;
-  left: 27.5px;
+  left: 25px;
   cursor: pointer;
   text-decoration: none;
+  border: 1px solid red;
+  padding: 2px;
+  border-radius: 5px;
+  background: red;
+  color: #ffffff80;
 }
 .vs_match_link:hover {
-  color: red;
+  color: #00000080;
 }
 
 .wl {
