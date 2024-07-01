@@ -651,6 +651,7 @@ footer {
   display: flex;
   gap: 5px;
   align-items: center;
+  flex-direction: row-reverse;
 }
 .result {
   font-size: 12px;
