@@ -169,8 +169,8 @@
         {
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
-          "points": 0,
-          "matches": "",
+          "points": 3,
+          "matches": "W",
           "players": [
             {
               "name": "h5d.",
@@ -180,23 +180,6 @@
               "name": "SSL U DILI",
               "isCap": true,
               "rank": 851
-            }
-          ]
-        },
-        {
-          "name": "Goose Fiction",
-          "logo": "assets/teams_logos/Goose-Fiction.png",
-          "points": 0,
-          "matches": "",
-          "players": [
-            {
-              "name": "KBM Sovereign",
-              "rank": 994
-            },
-            {
-              "name": "KanGer533.",
-              "isCap": true,
-              "rank": 910
             }
           ]
         },
@@ -214,6 +197,23 @@
             {
               "name": "wackix",
               "rank": 918
+            }
+          ]
+        },
+        {
+          "name": "Goose Fiction",
+          "logo": "assets/teams_logos/Goose-Fiction.png",
+          "points": 0,
+          "matches": "L",
+          "players": [
+            {
+              "name": "KBM Sovereign",
+              "rank": 994
+            },
+            {
+              "name": "KanGer533.",
+              "isCap": true,
+              "rank": 910
             }
           ]
         }

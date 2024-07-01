@@ -1,6 +1,20 @@
 {
   "matches": [
     {
+      "groupName": "Група В",
+      "demo": "https://www.youtube.com/live/kS0035rpFUU?si=YwDLILKVvypuciiL&t=103",
+      "team1": {
+        "name": "Double Penetration",
+        "isWinner": true,
+        "score": 4
+      },
+      "team2": {
+        "name": "Goose Fiction",
+        "isWinner": false,
+        "score": 2
+      }
+    },
+    {
       "groupName": "Група А",
       "demo": "https://www.youtube.com/live/kS0035rpFUU?si=YwDLILKVvypuciiL&t=103",
       "team1": {
