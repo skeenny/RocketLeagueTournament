@@ -833,9 +833,10 @@ footer {
 }
 
 .img-YT-demo {
-  width: 16px;
+  width: 100%;
   height: 16px;
 }
+
 .vs_block {
   border-radius: 4px;
   background-color: #a0fc2b;

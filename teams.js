@@ -234,16 +234,13 @@ function generateMatchHTML(match) {
   vsText.className = 'vs';
   vsText.textContent = 'VS';
 
-  const demoBlock = document.createElement('div');
+  const demoBlock = document.createElement('a');
   demoBlock.className = 'demo_block';
-
-  const vsLink = document.createElement('a');
-  vsLink.href = match.demo;
-  vsLink.target = '_blank';
+  demoBlock.href = match.demo;
+  demoBlock.target = '_blank';
   const YTLogoImg = document.createElement('div');
   YTLogoImg.className = 'img-YT img-YT-demo';
-  vsLink.appendChild(YTLogoImg);
-  demoBlock.appendChild(vsLink);
+  demoBlock.appendChild(YTLogoImg);
   vsBlock.appendChild(vsText);
 
   // Team 2
