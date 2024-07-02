@@ -77,23 +77,6 @@
       "name": "Група Б",
       "teams": [
         {
-          "name": "Project D",
-          "logo": "assets/teams_logos/project_d.png",
-          "points": 0,
-          "matches": "",
-          "players": [
-            {
-              "name": "naazzarko.00oo",
-              "rank": 1016
-            },
-            {
-              "name": "Kaktys 8",
-              "isCap": true,
-              "rank": 871
-            }
-          ]
-        },
-        {
           "name": "RT",
           "logo": "assets/teams_logos/rt.png",
           "points": 0,
@@ -130,8 +113,8 @@
         {
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
-          "points": 0,
-          "matches": "",
+          "points": 3,
+          "matches": "W",
           "players": [
             {
               "name": "Gucci_Flop.",
@@ -141,6 +124,23 @@
             {
               "name": "Joinus_R",
               "rank": 688
+            }
+          ]
+        },
+        {
+          "name": "Project D",
+          "logo": "assets/teams_logos/project_d.png",
+          "points": 0,
+          "matches": "L",
+          "players": [
+            {
+              "name": "naazzarko.00oo",
+              "rank": 1016
+            },
+            {
+              "name": "Kaktys 8",
+              "isCap": true,
+              "rank": 871
             }
           ]
         }
