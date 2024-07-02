@@ -1,7 +1,6 @@
 {
   "matches": [
     {
-      "groupName": "Група В",
       "demo": "https://www.youtube.com/live/I1M3yjHnu2I?si=wd5fNI9e3CvQiOoF&t=387",
       "team1": {
         "name": "Double Penetration",
@@ -15,7 +14,6 @@
       }
     },
     {
-      "groupName": "Група А",
       "demo": "https://www.youtube.com/live/kS0035rpFUU?si=YwDLILKVvypuciiL&t=103",
       "team1": {
         "name": "En78",
@@ -29,7 +27,6 @@
       }
     },
     {
-      "groupName": "Група А",
       "demo": "https://www.youtube.com/live/A7u3NmjfoJ4?si=gQkEEC9F5bV8TR_M&t=210",
       "team1": {
         "name": "Team 15",

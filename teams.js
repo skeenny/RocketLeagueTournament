@@ -31,9 +31,6 @@ matches.forEach((match) => {
   });
 });
 
-const mc = document.getElementById('matches-count');
-mc.innerText = matches.length;
-
 function getRankImage(rank) {
   const rankImages = [
     { threshold: 1864, image: 'assets/ranks_logos/ssl.webp' },
@@ -233,25 +230,21 @@ function generateMatchHTML(match) {
   const vsBlock = document.createElement('div');
   vsBlock.className = 'vs_block';
 
-  const vsGroup = document.createElement('span');
-  vsGroup.className = 'vs_group';
-  vsGroup.textContent = match.groupName;
-
   const vsText = document.createElement('div');
   vsText.className = 'vs';
   vsText.textContent = 'VS';
 
+  const demoBlock = document.createElement('div');
+  demoBlock.className = 'demo_block';
+
   const vsLink = document.createElement('a');
   vsLink.href = match.demo;
   vsLink.target = '_blank';
-  vsLink.className = 'vs_match_link';
-  vsLink.textContent = 'Demo';
-
-  vsBlock.appendChild(vsGroup);
+  const YTLogoImg = document.createElement('div');
+  YTLogoImg.className = 'img-YT img-YT-demo';
+  vsLink.appendChild(YTLogoImg);
+  demoBlock.appendChild(vsLink);
   vsBlock.appendChild(vsText);
-  if (match.demo) {
-    vsBlock.appendChild(vsLink);
-  }
 
   // Team 2
   const teamMatchRight = document.createElement('div');
@@ -283,6 +276,7 @@ function generateMatchHTML(match) {
   // Assemble match info
   matchInfo.appendChild(teamMatchLeft);
   matchInfo.appendChild(vsBlock);
+  matchInfo.appendChild(demoBlock);
   matchInfo.appendChild(teamMatchRight);
   container.appendChild(matchInfo);
   return matchInfo;

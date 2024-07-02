@@ -716,8 +716,9 @@ footer {
 
 .i-groups {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .i-group {
@@ -727,6 +728,7 @@ footer {
   background: #181818;
   border-radius: 10px;
   padding: 10px;
+  width: calc(50% - 30px);
 }
 
 .i-group-name {
@@ -817,21 +819,39 @@ footer {
   width: 68px;
 }
 
+.demo_block {
+  border-radius: 4px;
+  background-color: #1f1f1f;
+  width: 54px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: calc(50% - 27px);
+  bottom: 6px;
+}
+
+.img-YT-demo {
+  width: 16px;
+  height: 16px;
+}
 .vs_block {
-  border-radius: 10px;
+  border-radius: 4px;
   background-color: #a0fc2b;
-  width: 92px;
-  height: 92px;
+  width: 54px;
+  height: 41px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  left: calc(50% - 46px);
+  left: calc(50% - 27px);
+  top: 6px;
 }
 
 .vs {
   color: #121212;
-  font-size: 22px;
+  font-size: 16px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -844,24 +864,6 @@ footer {
   color: #00000080;
   top: 2px;
   left: 17px;
-}
-
-.vs_match_link {
-  position: absolute;
-  font-size: 14px;
-  bottom: 6px;
-  left: 25px;
-  cursor: pointer;
-  text-decoration: none;
-  border: 1px solid red;
-  padding: 2px;
-  border-radius: 5px;
-  background: #fc2b2b80;
-  color: #00000080;
-}
-.vs_match_link:hover {
-  color: #ffffff80;
-  background-color: red;
 }
 
 .wl {
@@ -925,6 +927,14 @@ footer {
   .match_score {
     font-size: 24px;
   }
+
+  .i-groups {
+    flex-direction: column;
+  }
+
+  .i-group {
+    width: unset;
+  }
 }
 @media screen and (max-width: 500px) {
   .left-menu {
@@ -953,9 +963,18 @@ footer {
   }
 
   .vs_block {
-    width: 64px;
-    height: 64px;
-    left: calc(50% - 32px);
+    width: 34px;
+    height: 20px;
+    left: calc(50% - 16px);
+    top: 3px;
+  }
+  .demo_block {
+    width: 34px;
+    left: calc(50% - 16px);
+    bottom: 3px;
+  }
+  .vs {
+    font-size: 8px;
   }
 
   .match-team-logo {
@@ -968,16 +987,23 @@ footer {
     left: 10px;
   }
 
-  .vs_match_link {
-    font-size: 12px;
-    left: 13px;
-    bottom: 1px;
+  .team_name {
+    font-size: 10px;
   }
+
+  .match_score {
+    font-size: 14px;
+  }
+
+  .team_info_right {
+    gap: 2px;
+  }
+
   .team_match_right {
-    padding: 5px 10px 5px 40px;
+    padding: 5px 10px 5px 25px;
   }
   .team_match {
-    padding: 5px 40px 5px 10px;
+    padding: 5px 25px 5px 10px;
   }
 }
 
