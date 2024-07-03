@@ -225,8 +225,8 @@
         {
           "name": "Shaleny Gusy",
           "logo": "assets/teams_logos/Shaleny_Gusy.png",
-          "points": 0,
-          "matches": "",
+          "points": 2,
+          "matches": "W",
           "players": [
             {
               "name": "Mencher_",
@@ -276,8 +276,8 @@
         {
           "name": "Secret Esports",
           "logo": "assets/teams_logos/Secret_Esports.png",
-          "points": 0,
-          "matches": "",
+          "points": 1,
+          "matches": "L",
           "players": [
             {
               "name": "Dxnku",

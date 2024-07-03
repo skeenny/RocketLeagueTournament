@@ -3,6 +3,19 @@
     {
       "demo": "https://www.youtube.com/live/qQ3hX2tPwcE?si=o40WEfa_PY2eMRlT&t=160",
       "team1": {
+        "name": "Shaleny Gusy",
+        "isWinner": true,
+        "score": 3
+      },
+      "team2": {
+        "name": "Secret Esports",
+        "isWinner": false,
+        "score": 2
+      }
+    },
+    {
+      "demo": "https://www.youtube.com/live/qQ3hX2tPwcE?si=o40WEfa_PY2eMRlT&t=160",
+      "team1": {
         "name": "Project D",
         "isWinner": false,
         "score": 0
