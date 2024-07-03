@@ -883,6 +883,36 @@ footer {
   background: linear-gradient(-90deg, rgba(252, 43, 43, 0) 15%, rgba(252, 43, 43, 0.4) 100%);
 }
 
+/* TOURS STYLES */
+
+.tour-tabs {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.tour-button {
+  height: 34px;
+  flex-grow: 1;
+  border: none;
+  background: #1f1f1f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tour-button:not(.tour-active):hover {
+  border: 1px solid #a0fc2b30;
+  border-top: 0;
+}
+
+.tour-active {
+  border: 1px solid #a0fc2b;
+  border-top: 0;
+}
+
 /* RESPONSIVE SETTINGS */
 
 @media screen and (max-width: 1425px) {
