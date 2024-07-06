@@ -242,8 +242,8 @@
         {
           "name": "HUH",
           "logo": "assets/teams_logos/HUH.png",
-          "points": 0,
-          "matches": "",
+          "points": 1,
+          "matches": "L L",
           "players": [
             {
               "name": "Deicidiikami",
@@ -259,8 +259,8 @@
         {
           "name": "Bimba",
           "logo": "assets/teams_logos/Bimba.png",
-          "points": 0,
-          "matches": "",
+          "points": 5,
+          "matches": "W W",
           "players": [
             {
               "name": "K0bzar_",
