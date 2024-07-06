@@ -867,6 +867,14 @@ footer {
   left: 17px;
 }
 
+.not-played-l {
+  background: linear-gradient(-90deg, rgba(160, 252, 43, 0) 15%, rgba(246, 246, 246, 0.4) 100%);
+}
+
+.not-played-r {
+  background: linear-gradient(90deg, rgba(160, 252, 43, 0) 15%, rgba(246, 246, 246, 0.4) 100%);
+}
+
 .wl {
   background: linear-gradient(90deg, rgba(160, 252, 43, 0) 15%, rgba(160, 252, 43, 0.4) 100%);
 }
@@ -897,10 +905,12 @@ footer {
   height: 34px;
   flex-grow: 1;
   border: none;
-  background: #1f1f1f;
+  background: #181818;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  border: 1px solid #181818;
+  border-top: 0;
 }
 
 .tour-button:not(.tour-active):hover {

@@ -1,36 +1,5 @@
-let groupsRequest = new XMLHttpRequest();
-groupsRequest.open('GET', 'teams.json', false);
-groupsRequest.send(null);
-let groups = JSON.parse(groupsRequest.responseText).groups;
-
-function getTeams(groups) {
-  const teams = [];
-  groups.forEach((group) => {
-    group.teams.forEach((team) => {
-      teams.push({ name: team.name, logo: team.logo });
-    });
-  });
-  return teams;
-}
-
-let matchesRequest = new XMLHttpRequest();
-matchesRequest.open('GET', 'matches.json', false);
-matchesRequest.send(null);
-let matches = JSON.parse(matchesRequest.responseText).matches;
-const teamsArray = getTeams(groups);
-
-matches.forEach((match) => {
-  const team1Name = match.team1.name;
-  const team2Name = match.team2.name;
-  teamsArray.forEach((team) => {
-    if (team.name === team1Name) {
-      match.team1.logo = team.logo;
-    } else if (team.name === team2Name) {
-      match.team2.logo = team.logo;
-    }
-  });
-});
-
+let activeTour = 1;
+document.getElementById(`tourN-${activeTour}`).className = 'tour-button tour-active';
 function getRankImage(rank) {
   const rankImages = [
     { threshold: 1864, image: 'assets/ranks_logos/ssl.webp' },
@@ -62,6 +31,54 @@ function getRankImage(rank) {
   }
   return 'assets/ranks_logos/default_rank_image.webp'; // Default image if no conditions are met
 }
+function getTeams(groups) {
+  const teams = [];
+  groups.forEach((group) => {
+    group.teams.forEach((team) => {
+      teams.push({ name: team.name, logo: team.logo });
+    });
+  });
+  return teams;
+}
+let groupsRequest = new XMLHttpRequest();
+groupsRequest.open('GET', 'teams.json', false);
+groupsRequest.send(null);
+let groups = JSON.parse(groupsRequest.responseText).groups;
+
+const teamsArray = getTeams(groups);
+
+let toursRequest = new XMLHttpRequest();
+toursRequest.open('GET', 'tours.json', false);
+toursRequest.send(null);
+let tours = JSON.parse(toursRequest.responseText).tours;
+
+function matchesParse(matches) {
+  matches.forEach((match) => {
+    const team1Name = match.team1.name;
+    const team2Name = match.team2.name;
+    teamsArray.forEach((team) => {
+      if (team.name === team1Name) {
+        match.team1.logo = team.logo;
+      } else if (team.name === team2Name) {
+        match.team2.logo = team.logo;
+      }
+    });
+  });
+  return matches;
+}
+
+function getActiveTourMatches(tourNumber) {
+  let matches;
+  tours.forEach((tour) => {
+    if (tour.tour == tourNumber) {
+      matches = tour.matches;
+    }
+  });
+  matches = matchesParse(matches);
+  return matches;
+}
+
+matches = getActiveTourMatches(activeTour);
 
 function sortTeamsByPoints(groups) {
   return groups.map((group) => {
@@ -201,7 +218,11 @@ function generateMatchHTML(match) {
   matchInfo.className = 'match-info';
 
   const teamMatchLeft = document.createElement('div');
-  teamMatchLeft.className = `team_match ${match.team1.isWinner ? 'wl' : 'll'}`;
+  if (match.demo) {
+    teamMatchLeft.className = `team_match ${match.team1.isWinner ? 'wl' : 'll'}`;
+  } else {
+    teamMatchLeft.className = `team_match not-played-l`;
+  }
 
   const teamInfoLeft = document.createElement('div');
   teamInfoLeft.className = 'team_info';
@@ -245,7 +266,11 @@ function generateMatchHTML(match) {
 
   // Team 2
   const teamMatchRight = document.createElement('div');
-  teamMatchRight.className = `team_match_right ${match.team2.isWinner ? 'wr' : 'lr'}`;
+  if (match.demo) {
+    teamMatchRight.className = `team_match_right ${match.team2.isWinner ? 'wr' : 'lr'}`;
+  } else {
+    teamMatchRight.className = `team_match_right not-played-r`;
+  }
 
   const teamInfoRight = document.createElement('div');
   teamInfoRight.className = 'team_info_right';
@@ -273,10 +298,11 @@ function generateMatchHTML(match) {
   // Assemble match info
   matchInfo.appendChild(teamMatchLeft);
   matchInfo.appendChild(vsBlock);
-  matchInfo.appendChild(demoBlock);
+  if (match.demo) {
+    matchInfo.appendChild(demoBlock);
+  }
   matchInfo.appendChild(teamMatchRight);
   container.appendChild(matchInfo);
-  return matchInfo;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -284,4 +310,19 @@ document.addEventListener('DOMContentLoaded', () => {
   matches.forEach((match) => {
     generateMatchHTML(match);
   });
+});
+
+document.getElementById('tour-tabs').addEventListener('click', (e) => {
+  const isTourButton = e.target.id.split('-')[0] === 'tourN';
+  if (isTourButton) {
+    const tourNumber = e.target.id.split('-')[1];
+    document.getElementById('matches-list').innerHTML = '';
+    activeTour = tourNumber;
+    document.getElementsByClassName('tour-active')[0].className = 'tour-button';
+    e.target.className += ' tour-active';
+    matches = getActiveTourMatches(activeTour);
+    matches.forEach((match) => {
+      generateMatchHTML(match);
+    });
+  }
 });
