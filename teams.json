@@ -80,7 +80,7 @@
           "name": "RT",
           "logo": "assets/teams_logos/rt.png",
           "points": 0,
-          "matches": "",
+          "matches": "L",
           "players": [
             {
               "name": "S0meW3l",
@@ -96,8 +96,8 @@
         {
           "name": "Sky Strikers",
           "logo": "assets/teams_logos/Sky_Strikers.png",
-          "points": 0,
-          "matches": "",
+          "points": 3,
+          "matches": "W",
           "players": [
             {
               "name": "ORYON",
