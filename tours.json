@@ -191,16 +191,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/J0zEmPEVOe8?si=ifbY4YFqqqRl47Dg&t=168",
           "team1": {
             "name": "Bimba",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 6
           },
           "team2": {
             "name": "Shaleny Gusy",
             "isWinner": false,
-            "score": 0
+            "score": 3
           }
         },
         {
