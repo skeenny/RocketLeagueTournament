@@ -243,7 +243,7 @@
           "name": "HUH",
           "logo": "assets/teams_logos/HUH.png",
           "points": 1,
-          "matches": "L L",
+          "matches": "L L L",
           "players": [
             {
               "name": "Deicidiikami",
@@ -276,8 +276,8 @@
         {
           "name": "Secret Esports",
           "logo": "assets/teams_logos/Secret_Esports.png",
-          "points": 1,
-          "matches": "L",
+          "points": 4,
+          "matches": "W L",
           "players": [
             {
               "name": "Dxnku",
