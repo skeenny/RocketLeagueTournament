@@ -79,8 +79,8 @@
         {
           "name": "RT",
           "logo": "assets/teams_logos/rt.png",
-          "points": 0,
-          "matches": "L",
+          "points": 2,
+          "matches": "W L",
           "players": [
             {
               "name": "S0meW3l",
@@ -113,8 +113,8 @@
         {
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
-          "points": 3,
-          "matches": "W",
+          "points": 4,
+          "matches": "L W",
           "players": [
             {
               "name": "Gucci_Flop.",
