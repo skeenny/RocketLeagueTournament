@@ -170,7 +170,7 @@
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
           "points": 3,
-          "matches": "W",
+          "matches": "L W",
           "players": [
             {
               "name": "h5d.",
@@ -186,8 +186,8 @@
         {
           "name": "Pivozavriki",
           "logo": "assets/teams_logos/Pivozavriki.png",
-          "points": 0,
-          "matches": "",
+          "points": 3,
+          "matches": "W",
           "players": [
             {
               "name": "wackix",

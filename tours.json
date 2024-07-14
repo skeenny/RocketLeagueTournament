@@ -178,16 +178,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/-GTP-o000bg?si=lxfNXO4lTCbPalpN&t=188",
           "team1": {
             "name": "Pivozavriki",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 3
           },
           "team2": {
             "name": "Double Penetration",
             "isWinner": false,
-            "score": 0
+            "score": 2
           }
         },
         {
