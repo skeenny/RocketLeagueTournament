@@ -56,16 +56,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/_hSWSh9xY3Y?si=PC78SRsPNUWwq-53&t=162",
           "team1": {
             "name": "Expinshion",
             "isWinner": false,
-            "score": 0
+            "score": 1
           },
           "team2": {
             "name": "Pivozavriki",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 2
           }
         },
         {
@@ -165,16 +165,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/_hSWSh9xY3Y?si=gdkreZZKdn5TeKYk&t=917",
           "team1": {
             "name": "Goose Fiction",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 5
           },
           "team2": {
             "name": "Expinshion",
             "isWinner": false,
-            "score": 0
+            "score": 3
           }
         },
         {

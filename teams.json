@@ -152,8 +152,8 @@
         {
           "name": "Expinshion",
           "logo": "assets/teams_logos/expinshion.png",
-          "points": 0,
-          "matches": "",
+          "points": 1,
+          "matches": "L L",
           "players": [
             {
               "name": "NAGetss_.",
@@ -186,8 +186,8 @@
         {
           "name": "Pivozavriki",
           "logo": "assets/teams_logos/Pivozavriki.png",
-          "points": 3,
-          "matches": "W",
+          "points": 5,
+          "matches": "W W",
           "players": [
             {
               "name": "wackix",
@@ -203,8 +203,8 @@
         {
           "name": "Goose Fiction",
           "logo": "assets/teams_logos/Goose-Fiction.png",
-          "points": 0,
-          "matches": "L",
+          "points": 3,
+          "matches": "W L",
           "players": [
             {
               "name": "KBM Sovereign",
