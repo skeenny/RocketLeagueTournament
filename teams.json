@@ -23,8 +23,8 @@
         {
           "name": "En78",
           "logo": "assets/teams_logos/En78.png",
-          "points": 0,
-          "matches": "L",
+          "points": 3,
+          "matches": "W L",
           "players": [
             {
               "name": "Skeenny_",
@@ -58,7 +58,7 @@
           "name": "Avengers",
           "logo": "assets/teams_logos/Avengers.png",
           "points": 0,
-          "matches": "L",
+          "matches": "L L",
           "players": [
             {
               "name": "Banka c pivom",
