@@ -7,7 +7,7 @@
           "name": "Team 15",
           "logo": "assets/teams_logos/Team15.png",
           "points": 5,
-          "matches": "W W",
+          "matches": "L W W",
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -23,8 +23,8 @@
         {
           "name": "En78",
           "logo": "assets/teams_logos/En78.png",
-          "points": 3,
-          "matches": "W L",
+          "points": 6,
+          "matches": "W W L",
           "players": [
             {
               "name": "Skeenny_",
@@ -226,7 +226,7 @@
           "name": "Shaleny Gusy",
           "logo": "assets/teams_logos/Shaleny_Gusy.png",
           "points": 2,
-          "matches": "L W",
+          "matches": "L L W",
           "players": [
             {
               "name": "Mencher_",
@@ -242,8 +242,8 @@
         {
           "name": "HUH",
           "logo": "assets/teams_logos/HUH.png",
-          "points": 1,
-          "matches": "L L L",
+          "points": 4,
+          "matches": "L W L L",
           "players": [
             {
               "name": "Deicidiikami",
