@@ -313,16 +313,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/knnPAF2wS5U?si=q0GHfoy-iU1nms63&t=240",
           "team1": {
             "name": "Bimba",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 5
           },
           "team2": {
             "name": "Secret Esports",
             "isWinner": false,
-            "score": 0
+            "score": 4
           }
         }
       ]

@@ -259,8 +259,8 @@
         {
           "name": "Bimba",
           "logo": "assets/teams_logos/Bimba.png",
-          "points": 8,
-          "matches": "W W W",
+          "points": 11,
+          "matches": "W W W W",
           "players": [
             {
               "name": "K0bzar_",
@@ -277,7 +277,7 @@
           "name": "Secret Esports",
           "logo": "assets/teams_logos/Secret_Esports.png",
           "points": 4,
-          "matches": "W L",
+          "matches": "L W L",
           "players": [
             {
               "name": "Dxnku",
