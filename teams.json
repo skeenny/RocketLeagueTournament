@@ -40,8 +40,8 @@
         {
           "name": "Death Express",
           "logo": "assets/teams_logos/death_express.png",
-          "points": 4,
-          "matches": "L W",
+          "points": 7,
+          "matches": "W L W",
           "players": [
             {
               "name": "TRY O_O HARD",
@@ -58,7 +58,7 @@
           "name": "Avengers",
           "logo": "assets/teams_logos/Avengers.png",
           "points": 0,
-          "matches": "L L",
+          "matches": "L L L",
           "players": [
             {
               "name": "Banka c pivom",

@@ -235,16 +235,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/V_aFRCc7yFs?si=x62t8_AqOPSSFJni&t=157",
           "team1": {
             "name": "Death Express",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 7
           },
           "team2": {
             "name": "Avengers",
             "isWinner": false,
-            "score": 0
+            "score": 2
           }
         },
         {
