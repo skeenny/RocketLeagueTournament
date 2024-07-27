@@ -97,7 +97,7 @@
           "name": "Sky Strikers",
           "logo": "assets/teams_logos/Sky_Strikers.png",
           "points": 3,
-          "matches": "W",
+          "matches": "L W",
           "players": [
             {
               "name": "ORYON",
@@ -130,8 +130,8 @@
         {
           "name": "Project D",
           "logo": "assets/teams_logos/project_d.png",
-          "points": 0,
-          "matches": "L",
+          "points": 3,
+          "matches": "W L",
           "players": [
             {
               "name": "naazzarko.00oo",
