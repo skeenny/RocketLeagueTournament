@@ -152,8 +152,8 @@
         {
           "name": "Expinshion",
           "logo": "assets/teams_logos/expinshion.png",
-          "points": 2,
-          "matches": "L L L",
+          "points": 5,
+          "matches": "W L L L",
           "players": [
             {
               "name": "NAGetss_.",
@@ -170,7 +170,7 @@
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
           "points": 5,
-          "matches": "W L W",
+          "matches": "L W L W",
           "players": [
             {
               "name": "h5d.",
@@ -187,7 +187,7 @@
           "name": "Pivozavriki",
           "logo": "assets/teams_logos/Pivozavriki.png",
           "points": 8,
-          "matches": "W W W",
+          "matches": "L W W W",
           "players": [
             {
               "name": "wackix",
@@ -203,8 +203,8 @@
         {
           "name": "Goose Fiction",
           "logo": "assets/teams_logos/Goose-Fiction.png",
-          "points": 3,
-          "matches": "L W L",
+          "points": 6,
+          "matches": "W L W L",
           "players": [
             {
               "name": "KBM Sovereign",

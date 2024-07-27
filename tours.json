@@ -383,7 +383,7 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/Cv7RvWrDlG8?si=BJZ5djNixUBtE8l4&t=187",
           "team1": {
             "name": "Pivozavriki",
             "isWinner": false,
@@ -391,21 +391,21 @@
           },
           "team2": {
             "name": "Expinshion",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 4
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/Cv7RvWrDlG8?si=hCI1M2OG3pfqF_B1&t=827",
           "team1": {
             "name": "Goose Fiction",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 3
           },
           "team2": {
             "name": "Double Penetration",
             "isWinner": false,
-            "score": 0
+            "score": 2
           }
         },
         {
