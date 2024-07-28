@@ -6,8 +6,8 @@
         {
           "name": "Team 15",
           "logo": "assets/teams_logos/Team15.png",
-          "points": 5,
-          "matches": "L W W",
+          "points": 8,
+          "matches": "W L W W",
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -23,8 +23,8 @@
         {
           "name": "En78",
           "logo": "assets/teams_logos/En78.png",
-          "points": 6,
-          "matches": "W W L",
+          "points": 9,
+          "matches": "W W W L",
           "players": [
             {
               "name": "Skeenny_",
@@ -41,7 +41,7 @@
           "name": "Death Express",
           "logo": "assets/teams_logos/death_express.png",
           "points": 7,
-          "matches": "W L W",
+          "matches": "L W L W",
           "players": [
             {
               "name": "TRY O_O HARD",
@@ -58,7 +58,7 @@
           "name": "Avengers",
           "logo": "assets/teams_logos/Avengers.png",
           "points": 0,
-          "matches": "L L L",
+          "matches": "L L L L",
           "players": [
             {
               "name": "Banka c pivom",
