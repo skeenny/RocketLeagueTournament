@@ -225,8 +225,8 @@
         {
           "name": "Shaleny Gusy",
           "logo": "assets/teams_logos/Shaleny_Gusy.png",
-          "points": 2,
-          "matches": "L L W",
+          "points": 5,
+          "matches": "W L L W",
           "players": [
             {
               "name": "Mencher_",
@@ -260,7 +260,7 @@
           "name": "Bimba",
           "logo": "assets/teams_logos/Bimba.png",
           "points": 11,
-          "matches": "W W W W",
+          "matches": "L W W W W",
           "players": [
             {
               "name": "K0bzar_",
