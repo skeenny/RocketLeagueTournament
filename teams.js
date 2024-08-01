@@ -122,7 +122,6 @@ function renderGroupsList(groups) {
 
       const teamLogo = document.createElement('div');
       teamLogo.className = 'team-logo';
-
       const teamLogoImg = document.createElement('img');
       teamLogoImg.src = team.logo;
       teamLogoImg.width = 68;
@@ -135,7 +134,9 @@ function renderGroupsList(groups) {
       const teamName = document.createElement('span');
       teamName.className = 'team-name';
       teamName.textContent = team.name;
-
+      if (team.group_winner) {
+        teamName.className += ' leader';
+      }
       const teamPlayers = document.createElement('div');
       teamPlayers.className = 'team-players';
 
@@ -177,8 +178,16 @@ function renderGroupsList(groups) {
       const isTop2 = index < 2;
       const teamIconCup = document.createElement('div');
       teamIconCup.className = 'team-icon-cup';
+      if (team.group_winner) {
+        teamIconCup.className += ' group-winner';
+      }
       const teamIconCupImg = document.createElement('img');
-      teamIconCupImg.src = 'assets/cup2.svg';
+      if (team.group_winner) {
+        teamIconCupImg.className = 'gw_cup';
+        teamIconCupImg.src = 'assets/cup3.svg';
+      } else {
+        teamIconCupImg.src = 'assets/cup2.svg';
+      }
       teamIconCup.appendChild(teamIconCupImg);
 
       if (isTop2) {
@@ -192,8 +201,9 @@ function renderGroupsList(groups) {
 
       matches.forEach((match) => {
         const el = document.createElement('span');
+        const matchResult = match.length === 1 ? match : match[0];
         el.innerText = match;
-        el.className = `result result_${match}`;
+        el.className = `result result_${matchResult}`;
         wrString.appendChild(el);
       });
 

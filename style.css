@@ -591,6 +591,15 @@ footer {
   background-color: #1f1f1f;
   border-radius: 10px;
 }
+
+.group-winner {
+  box-shadow: inset gold 0px 0px 4px;
+}
+
+.gw_cup {
+  height: 80%;
+}
+
 .team-left {
   display: flex;
   gap: 12px;

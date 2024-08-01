@@ -8,6 +8,7 @@
           "logo": "assets/teams_logos/Team15.png",
           "points": 13,
           "matches": "W W W L W W",
+          "group_winner": true,
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -25,6 +26,7 @@
           "logo": "assets/teams_logos/En78.png",
           "points": 12,
           "matches": "L W W W W L",
+          "group_winner": true,
           "players": [
             {
               "name": "Skeenny_",
@@ -42,6 +44,7 @@
           "logo": "assets/teams_logos/death_express.png",
           "points": 8,
           "matches": "L L W L W",
+          "group_winner": false,
           "players": [
             {
               "name": "TRY O_O HARD",
@@ -59,6 +62,7 @@
           "logo": "assets/teams_logos/Avengers.png",
           "points": 0,
           "matches": "L L L L L",
+          "group_winner": false,
           "players": [
             {
               "name": "Banka c pivom",
@@ -81,6 +85,7 @@
           "logo": "assets/teams_logos/rt.png",
           "points": 3,
           "matches": "L W L",
+          "group_winner": false,
           "players": [
             {
               "name": "S0meW3l",
@@ -98,6 +103,7 @@
           "logo": "assets/teams_logos/Sky_Strikers.png",
           "points": 3,
           "matches": "L L L W",
+          "group_winner": false,
           "players": [
             {
               "name": "ORYON",
@@ -114,7 +120,8 @@
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
           "points": 10,
-          "matches": "W W L W",
+          "matches": "W W L- W",
+          "group_winner": false,
           "players": [
             {
               "name": "Gucci_Flop.",
@@ -132,6 +139,7 @@
           "logo": "assets/teams_logos/project_d.png",
           "points": 5,
           "matches": "W W L",
+          "group_winner": false,
           "players": [
             {
               "name": "naazzarko.00oo",
@@ -154,6 +162,7 @@
           "logo": "assets/teams_logos/Double_Penetration.png",
           "points": 7,
           "matches": "W L W L W",
+          "group_winner": false,
           "players": [
             {
               "name": "h5d.",
@@ -171,6 +180,7 @@
           "logo": "assets/teams_logos/expinshion.png",
           "points": 5,
           "matches": "W L L L",
+          "group_winner": false,
           "players": [
             {
               "name": "NAGetss_.",
@@ -188,6 +198,7 @@
           "logo": "assets/teams_logos/Pivozavriki.png",
           "points": 9,
           "matches": "L L W W W",
+          "group_winner": false,
           "players": [
             {
               "name": "wackix",
@@ -205,6 +216,7 @@
           "logo": "assets/teams_logos/Goose-Fiction.png",
           "points": 6,
           "matches": "W L W L",
+          "group_winner": false,
           "players": [
             {
               "name": "KBM Sovereign",
@@ -227,6 +239,7 @@
           "logo": "assets/teams_logos/Shaleny_Gusy.png",
           "points": 7,
           "matches": "W W L L W",
+          "group_winner": false,
           "players": [
             {
               "name": "Mencher_",
@@ -244,6 +257,7 @@
           "logo": "assets/teams_logos/HUH.png",
           "points": 4,
           "matches": "L W L L",
+          "group_winner": false,
           "players": [
             {
               "name": "Deicidiikami",
@@ -261,6 +275,7 @@
           "logo": "assets/teams_logos/Bimba.png",
           "points": 14,
           "matches": "W L W W W W",
+          "group_winner": true,
           "players": [
             {
               "name": "K0bzar_",
@@ -278,6 +293,7 @@
           "logo": "assets/teams_logos/Secret_Esports.png",
           "points": 5,
           "matches": "L L L W L",
+          "group_winner": false,
           "players": [
             {
               "name": "Dxnku",

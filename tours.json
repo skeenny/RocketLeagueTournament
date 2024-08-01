@@ -264,12 +264,12 @@
           "demo": "https://www.youtube.com/live/TGCB8sceHd8?si=rbV9o8REHf41X8Ok&t=172",
           "team1": {
             "name": "Sky Strikers",
-            "isWinner": true,
+            "isWinner": false,
             "score": 1
           },
           "team2": {
             "name": "Dark Experience",
-            "isWinner": false,
+            "isWinner": true,
             "score": 2
           }
         },
