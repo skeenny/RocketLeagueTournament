@@ -150,23 +150,6 @@
       "name": "Група В",
       "teams": [
         {
-          "name": "Expinshion",
-          "logo": "assets/teams_logos/expinshion.png",
-          "points": 5,
-          "matches": "W L L L",
-          "players": [
-            {
-              "name": "NAGetss_.",
-              "rank": 1415
-            },
-            {
-              "name": "Lan1gwh",
-              "isCap": true,
-              "rank": 629
-            }
-          ]
-        },
-        {
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
           "points": 5,
@@ -180,6 +163,23 @@
               "name": "SSL U DILI",
               "isCap": true,
               "rank": 851
+            }
+          ]
+        },
+        {
+          "name": "Expinshion",
+          "logo": "assets/teams_logos/expinshion.png",
+          "points": 5,
+          "matches": "W L L L",
+          "players": [
+            {
+              "name": "NAGetss_.",
+              "rank": 1415
+            },
+            {
+              "name": "Lan1gwh",
+              "isCap": true,
+              "rank": 629
             }
           ]
         },
@@ -259,8 +259,8 @@
         {
           "name": "Bimba",
           "logo": "assets/teams_logos/Bimba.png",
-          "points": 11,
-          "matches": "L W W W W",
+          "points": 14,
+          "matches": "W L W W W W",
           "players": [
             {
               "name": "K0bzar_",
@@ -277,7 +277,7 @@
           "name": "Secret Esports",
           "logo": "assets/teams_logos/Secret_Esports.png",
           "points": 4,
-          "matches": "L W L",
+          "matches": "L L W L",
           "players": [
             {
               "name": "Dxnku",
