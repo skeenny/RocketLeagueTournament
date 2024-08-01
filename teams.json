@@ -6,8 +6,8 @@
         {
           "name": "Team 15",
           "logo": "assets/teams_logos/Team15.png",
-          "points": 10,
-          "matches": "W W L W W",
+          "points": 13,
+          "matches": "W W W L W W",
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -24,7 +24,7 @@
           "name": "En78",
           "logo": "assets/teams_logos/En78.png",
           "points": 12,
-          "matches": "W W W W L",
+          "matches": "L W W W W L",
           "players": [
             {
               "name": "Skeenny_",
@@ -152,8 +152,8 @@
         {
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
-          "points": 5,
-          "matches": "L W L W",
+          "points": 7,
+          "matches": "W L W L W",
           "players": [
             {
               "name": "h5d.",
@@ -186,8 +186,8 @@
         {
           "name": "Pivozavriki",
           "logo": "assets/teams_logos/Pivozavriki.png",
-          "points": 8,
-          "matches": "L W W W",
+          "points": 9,
+          "matches": "L L W W W",
           "players": [
             {
               "name": "wackix",
