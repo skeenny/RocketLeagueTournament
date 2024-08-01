@@ -97,7 +97,7 @@
           "name": "Sky Strikers",
           "logo": "assets/teams_logos/Sky_Strikers.png",
           "points": 3,
-          "matches": "L W",
+          "matches": "L L L W",
           "players": [
             {
               "name": "ORYON",
@@ -113,8 +113,8 @@
         {
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
-          "points": 4,
-          "matches": "L W",
+          "points": 10,
+          "matches": "W W L W",
           "players": [
             {
               "name": "Gucci_Flop.",

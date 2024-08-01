@@ -1,4 +1,4 @@
-let activeTour = 4;
+let activeTour = 5;
 document.getElementById(`tourN-${activeTour}`).className = 'tour-button tour-active';
 function getRankImage(rank) {
   const rankImages = [
