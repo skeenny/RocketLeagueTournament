@@ -6,8 +6,8 @@
         {
           "name": "Team 15",
           "logo": "assets/teams_logos/Team15.png",
-          "points": 8,
-          "matches": "W L W W",
+          "points": 10,
+          "matches": "W W L W W",
           "players": [
             {
               "name": "MARIS_W._GG",
@@ -40,8 +40,8 @@
         {
           "name": "Death Express",
           "logo": "assets/teams_logos/death_express.png",
-          "points": 7,
-          "matches": "L W L W",
+          "points": 8,
+          "matches": "L L W L W",
           "players": [
             {
               "name": "TRY O_O HARD",
