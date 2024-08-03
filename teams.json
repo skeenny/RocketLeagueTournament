@@ -43,7 +43,7 @@
           "name": "Death Express",
           "logo": "assets/teams_logos/death_express.png",
           "points": 8,
-          "matches": "L L W L W",
+          "matches": "L L L W L W",
           "group_winner": false,
           "players": [
             {
@@ -60,8 +60,8 @@
         {
           "name": "Avengers",
           "logo": "assets/teams_logos/Avengers.png",
-          "points": 0,
-          "matches": "L L L L L",
+          "points": 3,
+          "matches": "W L L L L L",
           "group_winner": false,
           "players": [
             {
@@ -119,9 +119,9 @@
         {
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
-          "points": 10,
-          "matches": "W W L W",
-          "group_winner": false,
+          "points": 13,
+          "matches": "W W W L W",
+          "group_winner": true,
           "players": [
             {
               "name": "Gucci_Flop.",
@@ -138,7 +138,7 @@
           "name": "Project D",
           "logo": "assets/teams_logos/project_d.png",
           "points": 5,
-          "matches": "W W L",
+          "matches": "L W W L",
           "group_winner": false,
           "players": [
             {
