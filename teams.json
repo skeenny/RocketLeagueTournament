@@ -235,24 +235,6 @@
       "name": "Група Г",
       "teams": [
         {
-          "name": "Shaleny Gusy",
-          "logo": "assets/teams_logos/Shaleny_Gusy.png",
-          "points": 7,
-          "matches": "W W L L W",
-          "group_winner": false,
-          "players": [
-            {
-              "name": "Mencher_",
-              "rank": 1059
-            },
-            {
-              "name": "Bobby_old_Stump.",
-              "isCap": true,
-              "rank": 851
-            }
-          ]
-        },
-        {
           "name": "HUH",
           "logo": "assets/teams_logos/HUH.png",
           "points": 7,
@@ -267,6 +249,24 @@
             {
               "name": "sosna256sosna",
               "rank": 599
+            }
+          ]
+        },
+        {
+          "name": "Shaleny Gusy",
+          "logo": "assets/teams_logos/Shaleny_Gusy.png",
+          "points": 7,
+          "matches": "W W L L W",
+          "group_winner": false,
+          "players": [
+            {
+              "name": "Mencher_",
+              "rank": 1059
+            },
+            {
+              "name": "Bobby_old_Stump.",
+              "isCap": true,
+              "rank": 851
             }
           ]
         },
