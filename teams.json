@@ -160,8 +160,8 @@
         {
           "name": "Double Penetration",
           "logo": "assets/teams_logos/Double_Penetration.png",
-          "points": 7,
-          "matches": "W L W L W",
+          "points": 9,
+          "matches": "W W L W L W",
           "group_winner": false,
           "players": [
             {
@@ -178,8 +178,8 @@
         {
           "name": "Expinshion",
           "logo": "assets/teams_logos/expinshion.png",
-          "points": 5,
-          "matches": "W L L L",
+          "points": 6,
+          "matches": "L W L L L",
           "group_winner": false,
           "players": [
             {
