@@ -83,8 +83,8 @@
         {
           "name": "RT",
           "logo": "assets/teams_logos/rt.png",
-          "points": 3,
-          "matches": "L W L",
+          "points": 7,
+          "matches": "W L L W L",
           "group_winner": false,
           "players": [
             {
@@ -119,8 +119,8 @@
         {
           "name": "Dark Experience",
           "logo": "assets/teams_logos/Dark_Experience.png",
-          "points": 13,
-          "matches": "W W W L W",
+          "points": 15,
+          "matches": "W W W W L W",
           "group_winner": true,
           "players": [
             {
@@ -138,7 +138,7 @@
           "name": "Project D",
           "logo": "assets/teams_logos/project_d.png",
           "points": 5,
-          "matches": "L W W L",
+          "matches": "L L W W L",
           "group_winner": false,
           "players": [
             {
@@ -178,8 +178,8 @@
         {
           "name": "Expinshion",
           "logo": "assets/teams_logos/expinshion.png",
-          "points": 6,
-          "matches": "L W L L L",
+          "points": 9,
+          "matches": "W L W L L L",
           "group_winner": false,
           "players": [
             {
@@ -215,7 +215,7 @@
           "name": "Goose Fiction",
           "logo": "assets/teams_logos/Goose-Fiction.png",
           "points": 6,
-          "matches": "W L W L",
+          "matches": "L L W L W L",
           "group_winner": false,
           "players": [
             {
@@ -237,8 +237,8 @@
         {
           "name": "HUH",
           "logo": "assets/teams_logos/HUH.png",
-          "points": 7,
-          "matches": "W L W L L",
+          "points": 10,
+          "matches": "W W L W L L",
           "group_winner": false,
           "players": [
             {
@@ -256,7 +256,7 @@
           "name": "Shaleny Gusy",
           "logo": "assets/teams_logos/Shaleny_Gusy.png",
           "points": 7,
-          "matches": "W W L L W",
+          "matches": "L W W L L W",
           "group_winner": false,
           "players": [
             {
