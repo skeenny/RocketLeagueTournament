@@ -1,0 +1,201 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "matches": [
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matches": [
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matches": [
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        },
+        {
+          "demo": "",
+          "team1": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          },
+          "team2": {
+            "name": "TBD",
+            "isWinner": false,
+            "score": 0
+          }
+        }
+      ]
+    }
+  ]
+}
