@@ -255,8 +255,8 @@
         {
           "name": "HUH",
           "logo": "assets/teams_logos/HUH.png",
-          "points": 4,
-          "matches": "L W L L",
+          "points": 7,
+          "matches": "W L W L L",
           "group_winner": false,
           "players": [
             {
@@ -292,7 +292,7 @@
           "name": "Secret Esports",
           "logo": "assets/teams_logos/Secret_Esports.png",
           "points": 5,
-          "matches": "L L L W L",
+          "matches": "L L L L W L",
           "group_winner": false,
           "players": [
             {

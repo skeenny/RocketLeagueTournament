@@ -531,11 +531,11 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/kv_L7_xJtUY?si=evHby0Be95yVlgCz&t=189",
           "team1": {
             "name": "HUH",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 5
           },
           "team2": {
             "name": "Secret Esports",
