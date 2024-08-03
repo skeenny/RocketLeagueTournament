@@ -239,7 +239,7 @@
           "logo": "assets/teams_logos/HUH.png",
           "points": 10,
           "matches": "W W L W L L",
-          "group_winner": false,
+          "group_winner": true,
           "players": [
             {
               "name": "Deicidiikami",
