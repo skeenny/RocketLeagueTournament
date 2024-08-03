@@ -162,7 +162,7 @@
           "logo": "assets/teams_logos/Double_Penetration.png",
           "points": 9,
           "matches": "W W L W L W",
-          "group_winner": false,
+          "group_winner": true,
           "players": [
             {
               "name": "h5d.",
@@ -215,7 +215,7 @@
           "name": "Goose Fiction",
           "logo": "assets/teams_logos/Goose-Fiction.png",
           "points": 6,
-          "matches": "L L W L W L",
+          "matches": "L W L W L",
           "group_winner": false,
           "players": [
             {
