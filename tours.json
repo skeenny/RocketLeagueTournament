@@ -614,16 +614,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/MyHv-BYWxFk?si=GFhydF0uZfeARYTc&t=276",
           "team1": {
             "name": "Pivozavriki",
             "isWinner": false,
-            "score": 0
+            "score": 1
           },
           "team2": {
             "name": "Goose Fiction",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 2
           }
         },
         {

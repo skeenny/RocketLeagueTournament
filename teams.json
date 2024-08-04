@@ -196,9 +196,9 @@
         {
           "name": "Pivozavriki",
           "logo": "assets/teams_logos/Pivozavriki.png",
-          "points": 9,
-          "matches": "L L W W W",
-          "group_winner": false,
+          "points": 10,
+          "matches": "W L L W W W",
+          "group_winner": true,
           "players": [
             {
               "name": "wackix",
@@ -214,8 +214,8 @@
         {
           "name": "Goose Fiction",
           "logo": "assets/teams_logos/Goose-Fiction.png",
-          "points": 6,
-          "matches": "L W L W L",
+          "points": 7,
+          "matches": "L L W L W L",
           "group_winner": false,
           "players": [
             {
