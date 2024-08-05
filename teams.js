@@ -308,7 +308,7 @@ function generateMatchHTML(match) {
   // Assemble match info
   matchInfo.appendChild(teamMatchLeft);
   matchInfo.appendChild(vsBlock);
-  if (match.demo) {
+  if (match.demo && match.demo !== 'DNF') {
     matchInfo.appendChild(demoBlock);
   }
   matchInfo.appendChild(teamMatchRight);

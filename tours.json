@@ -370,16 +370,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "DNF",
           "team1": {
             "name": "Sky Strikers",
             "isWinner": false,
-            "score": 0
+            "score": "DNF"
           },
           "team2": {
             "name": "RT",
             "isWinner": false,
-            "score": 0
+            "score": "DNF"
           }
         },
         {
@@ -466,16 +466,16 @@
           }
         },
         {
-          "demo": "",
+          "demo": "https://www.youtube.com/live/lylQ7EQbtMI?si=d_lR6Fly5xGjB0am&t=278",
           "team1": {
             "name": "Project D",
             "isWinner": false,
-            "score": 0
+            "score": 4
           },
           "team2": {
             "name": "Sky Strikers",
-            "isWinner": false,
-            "score": 0
+            "isWinner": true,
+            "score": 5
           }
         },
         {

@@ -84,8 +84,8 @@
           "name": "RT",
           "logo": "assets/teams_logos/rt.png",
           "points": 7,
-          "matches": "W L L W L",
-          "group_winner": false,
+          "matches": "L W L L W L",
+          "group_winner": true,
           "players": [
             {
               "name": "S0meW3l",
@@ -101,8 +101,8 @@
         {
           "name": "Sky Strikers",
           "logo": "assets/teams_logos/Sky_Strikers.png",
-          "points": 3,
-          "matches": "L L L W",
+          "points": 5,
+          "matches": "W L L L L W",
           "group_winner": false,
           "players": [
             {
@@ -137,8 +137,8 @@
         {
           "name": "Project D",
           "logo": "assets/teams_logos/project_d.png",
-          "points": 5,
-          "matches": "L L W W L",
+          "points": 6,
+          "matches": "L L L W W L",
           "group_winner": false,
           "players": [
             {
