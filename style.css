@@ -213,11 +213,15 @@ a {
   height: 100%;
 }
 
-.img-info:not(.disabled):hover {
+.img-info.active {
   background-color: #a0fc2b;
 }
 
-.img-info.active {
+.img-cup.active {
+  background-color: #a0fc2b;
+}
+
+.img-cup:not(.disabled):hover {
   background-color: #a0fc2b;
 }
 
@@ -987,6 +991,12 @@ footer {
   }
 }
 @media screen and (max-width: 500px) {
+  .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
   .left-menu {
     display: none;
   }

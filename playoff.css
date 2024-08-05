@@ -3,7 +3,13 @@
 }
 
 .tournament-container {
+  overflow-x: scroll;
   width: 100%;
+}
+
+.scroll-container {
+  overflow-x: auto;
+  min-width: 1200px;
 }
 
 .tournament-headers {
@@ -27,6 +33,7 @@
   flex-direction: row;
   list-style-type: none;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .bracket {
@@ -38,11 +45,11 @@
   flex-direction: column;
   justify-content: space-around;
   list-style-type: none;
-  flex: 1;
+  width: 33.3%;
 }
 
 .team-item {
-  background-color: #f4f4f4;
+  background-color: #181818;
   padding: 0.5rem;
   display: block;
   margin: 0.5rem 10px;
@@ -50,6 +57,7 @@
   vertical-align: middle;
   line-height: 2;
   text-align: center;
+  border-radius: 5px;
 }
 
 .team-item:after {
@@ -66,14 +74,14 @@
   border-right-style: solid;
   border-top-style: solid;
   height: 100%;
-  top: 50%;
+  top: calc(50% - 1px);
 }
 
 .team-item:nth-of-type(even):after {
   border-right-style: solid;
   border-bottom-style: solid;
   height: 100%;
-  top: -50%;
+  top: calc(-50% - 1px);
 }
 
 .team-item:before {
@@ -83,7 +91,7 @@
   height: 2px;
   width: 10px;
   left: -10px;
-  top: 50%;
+  top: calc(50% - 1px);
 }
 
 .bracket-2 {
@@ -98,6 +106,7 @@
 }
 
 .bracket-3 {
+  position: relative;
   .team-item:nth-of-type(odd):after {
     height: 350%;
     top: 50%;
@@ -108,32 +117,124 @@
   }
 }
 
-.bracket-4 {
-  .team-item:nth-of-type(odd):after {
-    height: 700%;
-    top: 50%;
-  }
-  .team-item:nth-of-type(even):after {
-    height: 700%;
-    top: -650%;
-  }
-}
-
 .bracket:first-of-type {
   .team-item:before {
     display: none;
   }
 }
 
-.bracket-4 {
+.bracket-3 {
   .team-item:after {
     display: none;
   }
 }
 
-.team-item time {
-  display: inline-block;
-  background-color: #dbdbdb;
-  font-size: 0.8rem;
-  padding: 0 0.6rem;
+.p-match {
+  display: flex;
+
+  .p-teams {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .p-team {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 5px 80px 5px 10px;
+      background: linear-gradient(90deg, rgba(160, 252, 43, 0) 15%, rgba(246, 246, 246, 0.4) 100%);
+      &:first-child {
+        border-bottom: 2px solid #a0fc2b;
+      }
+      &.winner {
+        background: linear-gradient(90deg, rgba(160, 252, 43, 0) 15%, rgba(160, 252, 43, 0.4) 100%);
+      }
+      &.looser {
+        background: linear-gradient(90deg, rgba(252, 43, 43, 0) 15%, rgba(252, 43, 43, 0.4) 100%);
+      }
+      .p-team-logo {
+        display: flex;
+        background-color: #1f1f1f;
+        border-radius: 10px;
+      }
+      .p-team-name {
+        color: white;
+      }
+      .p-result {
+        color: white;
+      }
+    }
+
+    .p-vs-block {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      right: 5px;
+      .p-vs {
+        border-radius: 4px;
+        background-color: #a0fc2b;
+        width: 54px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .p-demo {
+        border-radius: 4px;
+        background-color: #1f1f1f;
+        width: 54px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .p-scores {
+    display: flex;
+    .p-match-result {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      border-left: 1px solid #a0fc2b;
+      background: #707070;
+      .p-match-result {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 0px 5px;
+        &:first-child {
+          border-bottom: 2px solid #a0fc2b;
+        }
+        &.p-match-result_lose {
+          background: #742322;
+        }
+        &.p-match-result_win {
+          background: #4e7325;
+        }
+      }
+    }
+  }
+}
+
+.bronze-place-match {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  width: 31%;
+  background-color: #181818;
+  padding: 0.5rem;
+  display: block;
+  margin: 0.5rem 10px;
+  vertical-align: middle;
+  line-height: 2;
+  text-align: center;
+  border-radius: 5px;
 }
