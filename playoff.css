@@ -97,11 +97,11 @@
 .bracket-2 {
   .team-item:nth-of-type(odd):after {
     height: 200%;
-    top: 50%;
+    top: calc(50% - 1px);
   }
   .team-item:nth-of-type(even):after {
     height: 200%;
-    top: -150%;
+    top: calc(-150% - 1px);
   }
 }
 
